@@ -701,7 +701,7 @@ ngx_escape_statsd_key(u_char *dst, u_char *src, size_t size)
 		0xfc00bfff, /* 1111 1100 0000 0000  1011 1111 1111 1111 */
 
                     /* _^]\ [ZYX WVUT SRQP  ONML KJIH GFED CBA@ */
-		0x78000001, /* 0111 1000 0000 0000  0000 0000 0000 0001 */
+		0x50000001, /* 0101 0000 0000 0000  0000 0000 0000 0001 */
 
                     /*  ~}| {zyx wvut srqp  onml kjih gfed cba` */
 		0xf8000001, /* 1111 1000 0000 0000  0000 0000 0000 0001 */
